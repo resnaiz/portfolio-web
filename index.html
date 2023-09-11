@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio</title>
+
+    <link rel = "icon" href="images/logo.png">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header class="header">
+        <img class="img-title" src="images/logo.png" alt="">
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#myskills">Skills</a>
+            <a href="#work-experience">Work experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Arnis Petersons</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>As a C# programmer, I really appreciate the power of code and its ability to turn interesting ideas into reality.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ArnisP14/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/resnaiz/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/arnispetersons/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/resnaiz" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a class="btn" href="cv/CV_Arnis_Pētersons.pdf" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/home.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer</h3>
+            <p>I'm constantly trying to learn new skills and occasionally work on my own little projects. I am happy to be part of a community of programmers who are constantly innovating and developing the field. In addition to programming, in my free time I like to play various sports at a non-professional level and go to new places to relax.</p>
+            <a href="https://www.linkedin.com/in/arnispetersons/" class="btn" target="_blank">Read More</a>
+        </div>
+    </section>
+
+    <section class="myskills" id="myskills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skillbar">
+            <div class="skill">
+                <p>C#</p>
+                <div class="bar">
+                    <div class="fill" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <p>SQL</p>
+                <div class="bar">
+                    <div class="fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <p>TypeScript</p>
+                <div class="bar">
+                    <div class="fill" style="width: 75%;">75%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="bar">
+                    <div class="fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>.NET Framework</p>
+                <div class="bar">
+                    <div class="fill" style="width: 75%;">75%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>HTTP & Web API Basics</p>
+                <div class="bar">
+                    <div class="fill" style="width: 72%;">72%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Test Driven Development</p>
+                <div class="bar">
+                    <div class="fill" style="width: 70%;">70%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>HTML & CSS</p>
+                <div class="bar">
+                    <div class="fill" style="width: 80%;">80%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-experience" id="work-experience">
+        <h2 class="heading">Work <span>Experience</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                <h2>IS Administrator at <span>Rīgas digitālā aģentūra</span></h2>
+                <p>Coming soon...</p>
+                <p class="timeline-date">Jul 2023 - Present</p>   
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h2>Software Developer at <span>Codelex</span></h2>
+                    <p>I have worked on several projects to improve my skills in both frontend and backend development. These projects have given me solid experience in several programming languages with a lot of information.</p>
+                    <p class="timeline-date">Feb 2023 - Jul 2023</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Flight Planner</h4>
+                    <p>Web application development using C#, HTTP, Web API and TypeScript. The project used Flight programming API, which required problem solving skills.</p>
+                    <a href="https://github.com/resnaiz/FlightPlanner" target="_blank"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Scooter Rental</h4>
+                    <p>Test-driven development was implemented to ensure that every feature was tested and all defects were fixed and resolved early in the 
+                        development cycle, thus improving the quality of the software.</p>
+                    <a href="#"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Product Selector</h4>
+                    <p>Product menu that generates the relevant product code when the product and variations are selected. Developed with React and 
+                        TypeScript.</p>
+                    <a href="https://github.com/resnaiz/product-selector" target="_blank"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Driving School App</h4>
+                    <p>I created an app where you can register students in the driving school system. You can enter the details of the student and send an email. 
+                        The application was created using C#, SQL and React.</p>
+                    <a href="https://github.com/resnaiz/DrivingSchool" target="_blank"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>House Management</h4>
+                    <p>I created a WEB API project where you can perform basic activities. It is possible to create, update existing, get by id, delete by id, retrieve 
+                        all data about house, apartment and citizen. The front-end part of the project is built using Angular, back-end - C#, Entity Framework.</p>
+                    <a href="https://github.com/resnaiz/BBIT-Task-2-3" target="_blank"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>SQL</h4>
+                    <p>SQL was used to manage and manipulate the relational databases by writing queries to retrieve data, create tables and modify data 
+                        structures.</p>
+                    <a href="https://github.com/resnaiz/sql-task" target="_blank"><i class='bx bx-link' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <div class="contact-info">
+            <div class="contact-item" id="contact-item">
+                <i class='bx bx-envelope'></i>
+                <p>E-mail:</p>
+            </div>
+            <p>
+                <span>arnispe03@gmail.com</span>
+            </p>
+
+            <div class="contact-item" id="contact-item">
+                <i class='bx bx-phone'></i>
+                <p>Phone Number:</p>
+            </div>
+            <p>
+                <span>+371 28833826</span>
+            </p>
+
+            <div class="contact-item" id="contact-item">
+                <i class='bx bx-world'></i>
+                <p>Location:</p>
+            </div>
+            <p>
+                <span>Sigulda, Latvia</span>
+            </p>
+
+            <div class="contact-item" id="contact-item">
+                <i class='bx bx-user-voice'></i>
+                <p>Languages:</p>
+            </div>
+            <p>
+                <span>Latvian, English</span>
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text-text">
+            <p class="footer-p-made">Made with <i class='bx bx-heart' ></i></i> by Arnis</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow-circle' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdeliver.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
